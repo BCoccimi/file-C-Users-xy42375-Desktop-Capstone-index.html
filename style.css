@@ -1,0 +1,171 @@
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #01161E;
+}
+/* Universal Styles */
+body {
+    margin: 0;
+  position:relative;
+  }
+ /* Header */
+}
+header, footer {
+  display: flex;
+  margin: auto;
+  height: 4rem;
+  position: fixed;
+  justify-content: space-between;
+  box-sizing: border-box;
+   }
+.flex-container-1 {
+  background-color: white;
+  justify-content: center;
+  line-height: 32px;
+  font-size: 1.5rem;
+  }
+.flex-container-1 img
+{
+padding-left: 24px;
+line-height: 32px;
+}
+span:first-child {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 32px;
+}
+span:last-child {
+  font-size: 1.5rem;
+  color: gray;
+  font-weight: bold;
+  display: inline;
+}
+.menu-1 nav {
+ text-align: right;
+ justify-content: space-between;
+ align-content: center;
+ padding-right: 24px;
+ margin: auto;
+  }
+.links {
+ display: inline-block;
+ text-underline-position: none;
+ color: gray;
+ padding-right: 24px;
+ 
+   }
+  /*  Learn Something New Container */
+.main-banner img {
+ width: 60%;
+ display: flex;
+ display: inline-flex;
+ flex-flow: column;
+ justify-content: space-between;
+ vertical-align: middle;
+}
+.flex-container-2 {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: row;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+.main-banner {
+  display: flex;
+  vertical-align: middle;
+  height: auto;
+  padding: 32px 24px;
+     }
+.start button {
+  width: 75%;
+  color: gray;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  text-align: center;
+  transition:color 400ms, background-color 400ms;
+  font-weight: bold;
+}
+/*  Practice Container */
+.flex-container-3 {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  flex-wrap: wrap;
+  margin-left: 24px;
+  background-color: white;
+  }
+.practice 
+{
+width: 60%;
+padding: 32px 24px;
+}
+/*  Campus three pics Container */
+.holder-campus-info 
+{
+display: flex;
+flex-direction: column;
+text-align: right;
+}
+section:nth-child(2n+1) {
+  background-color: lightgray;
+}
+.campus-info-text {
+display: flex;
+flex-direction: column;
+text-align: right;
+opacity: .5;
+}
+.campus-info-single
+{
+display: flex;
+flex-direction: column;
+text-align: right;
+}
+.flex-container-4 {
+display: flex;
+flex-flow: wrap column;
+justify-content: flex-end;
+display: block;
+background-color: white;
+}
+.img-campus-info-mobile
+{
+  display: none;
+}
+/* Featured Courses */
+
+.flex-container-5 {
+  display: flex;
+  flex-basis: auto;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: lightgray;
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  }
+
+.course-description {
+  width: 28%;
+  
+         }
+ .course-description img {
+  max-width: 100%; // stop images from breaking out of their bounding boxes.
+}
+ 
+/* Video */
+
+
+
+  
+/*footer*/
+.copyright {
+  background-color: white;
+  border-top: 1px solid #01161E;
+  width: 100%
+ }
+   
+.legal {
+    text-align: right;
+}
